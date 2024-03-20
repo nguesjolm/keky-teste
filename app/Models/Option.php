@@ -25,7 +25,7 @@ class Option extends Model
 	protected $table = 'options';
 
 	protected $casts = [
-		'number' => 'int'
+		'title' => 'int'
 	];
 
 	protected $fillable = [
